@@ -28,19 +28,26 @@ namespace Moskvina_01_02
 
         private void calculate_Click(object sender, RoutedEventArgs e)
         {
-            if (int.TryParse(belkiTxt.Text, out int belki) && int.TryParse(uglevodiTxt.Text, out int ugl) ) {
-                if (IsParent.IsChecked == true && int.TryParse(P_txt.Text, out int p))
+            if (nameTxt.Text != "")
+            {
+                if (int.TryParse(belkiTxt.Text, out int belki) && int.TryParse(uglevodiTxt.Text, out int ugl))
                 {
-                    Pitanie_2 pi = new Pitanie_2(nameTxt.Text, belki, ugl, p);
+                    if (IsParent.IsChecked == true && int.TryParse(P_txt.Text, out int p))
+                    {
+                        Pitanie_2 pi = new Pitanie_2(nameTxt.Text, belki, ugl, p);
 
-                   resultTxt.Content= pi.calculateQp(pi.calculateQ());
-                }
-                else  {
-                    Pitanie pi = new Pitanie(nameTxt.Text, belki, ugl);
-                    resultTxt.Content = pi.calculateQ();
+                        resultTxt.Content = pi.calculateQp(pi.calculateQ());
+                    }
+                    else
+                    {
+                        Pitanie pi = new Pitanie(nameTxt.Text, belki, ugl);
+                        resultTxt.Content = pi.calculateQ();
 
+                    }
                 }
+                else resultTxt.Content = "Некоректные значения";
             }
+            else resultTxt.Content = "Введите название";
         }
 
         private void IsParent_Checked(object sender, RoutedEventArgs e)
