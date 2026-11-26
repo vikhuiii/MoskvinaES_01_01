@@ -1,0 +1,15 @@
+C:\Users\305-4\source\repos\Moskvina_01_02\bin\Debug\Moskvina_01_02.exe.config
+C:\Users\305-4\source\repos\Moskvina_01_02\bin\Debug\Moskvina_01_02.exe
+C:\Users\305-4\source\repos\Moskvina_01_02\bin\Debug\Moskvina_01_02.pdb
+C:\Users\305-4\source\repos\Moskvina_01_02\obj\Debug\Moskvina_01_02.csproj.AssemblyReference.cache
+C:\Users\305-4\source\repos\Moskvina_01_02\obj\Debug\MainWindow.g.cs
+C:\Users\305-4\source\repos\Moskvina_01_02\obj\Debug\App.g.cs
+C:\Users\305-4\source\repos\Moskvina_01_02\obj\Debug\Moskvina_01_02_MarkupCompile.cache
+C:\Users\305-4\source\repos\Moskvina_01_02\obj\Debug\Moskvina_01_02_MarkupCompile.lref
+C:\Users\305-4\source\repos\Moskvina_01_02\obj\Debug\MainWindow.baml
+C:\Users\305-4\source\repos\Moskvina_01_02\obj\Debug\Moskvina_01_02.g.resources
+C:\Users\305-4\source\repos\Moskvina_01_02\obj\Debug\Moskvina_01_02.Properties.Resources.resources
+C:\Users\305-4\source\repos\Moskvina_01_02\obj\Debug\Moskvina_01_02.csproj.GenerateResource.cache
+C:\Users\305-4\source\repos\Moskvina_01_02\obj\Debug\Moskvina_01_02.csproj.CoreCompileInputs.cache
+C:\Users\305-4\source\repos\Moskvina_01_02\obj\Debug\Moskvina_01_02.exe
+C:\Users\305-4\source\repos\Moskvina_01_02\obj\Debug\Moskvina_01_02.pdb

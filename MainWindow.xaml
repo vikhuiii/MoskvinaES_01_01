@@ -1,0 +1,23 @@
+﻿<Window x:Class="Moskvina_01_02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Moskvina_01_02"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="324">
+    <Grid>
+        <TextBox x:Name="nameTxt" HorizontalAlignment="Left" Height="23" Margin="67,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+        <TextBox x:Name="belkiTxt" HorizontalAlignment="Left" Height="23" Margin="67,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+        <TextBox x:Name="uglevodiTxt" HorizontalAlignment="Left" Height="24" Margin="67,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+        <CheckBox x:Name="IsParent" Content="Дочерний" HorizontalAlignment="Left" Margin="67,264,0,0" VerticalAlignment="Top" Checked="IsParent_Checked"/>
+        <Label x:Name="resultTxt" Content="Q =" HorizontalAlignment="Left" Margin="67,348,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="calculate" Content="Вычислить" HorizontalAlignment="Left" Margin="67,314,0,0" VerticalAlignment="Top" Width="75" Click="calculate_Click"/>
+        <Label Content="Название продукта" HorizontalAlignment="Left" Margin="67,39,0,0" VerticalAlignment="Top"/>
+        <Label Content="Количество белка" HorizontalAlignment="Left" Margin="67,85,0,0" VerticalAlignment="Top"/>
+        <Label Content="Количество углеводов" HorizontalAlignment="Left" Margin="67,134,0,0" VerticalAlignment="Top"/>
+        <Label Content="Жиров" HorizontalAlignment="Left" Margin="67,189,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="P_txt" HorizontalAlignment="Left" Height="23" Margin="67,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+
+    </Grid>
+</Window>

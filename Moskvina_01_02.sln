@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moskvina_01_02", "Moskvina_01_02.csproj", "{2F0A8390-866F-4AB0-851B-5CFF4BED0615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "..\TestProject\TestProject.csproj", "{87E96BE8-9AB7-4D89-BB55-7896A6EE86A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F0A8390-866F-4AB0-851B-5CFF4BED0615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0A8390-866F-4AB0-851B-5CFF4BED0615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0A8390-866F-4AB0-851B-5CFF4BED0615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0A8390-866F-4AB0-851B-5CFF4BED0615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E96BE8-9AB7-4D89-BB55-7896A6EE86A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E96BE8-9AB7-4D89-BB55-7896A6EE86A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E96BE8-9AB7-4D89-BB55-7896A6EE86A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E96BE8-9AB7-4D89-BB55-7896A6EE86A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EFF067C-4458-4050-BDFC-F23C5AA87FED}
+	EndGlobalSection
+EndGlobal
